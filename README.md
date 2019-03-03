@@ -2,21 +2,31 @@
 
 ``` txt
 sass/                    
-|
-|– _base.sass            
-|– _header.sass          
-|– _footer.sass          
-|– _mixins.sass          
-|– _typography.sass      
-|– _variables.sass       
+|    
+|– abstracts/                
+|   |– _functions.sass        
+|   |– _mixins.sass     
+|   |– _variables.sass   
+|– base/              
+|   |– _base.sass   
+|   |– _fonts.sass   
+|   |– _helpers.sass
+|   |– _typography.sass
+|– components/                
+|   |– _button.sass        
+|   ...
+|– layout/                
+|   |– _footer.sass
+|   |– _header.sass
 |– pages/                
 |   |– _home.sass        
-|   |– _contact.sass     
-|   ...                  
-|– vendors/              
-|   |– _bootstrap.sass   
-|   |– _jquery-ui.sass   
-|   ...                  
+|   ...
+|– themes/                
+|   |– _default.sass        
+|   ...
+|– vendors/                
+|   |– _normalize.sass        
+|   ...
 `– main.sass             
 ```
 
