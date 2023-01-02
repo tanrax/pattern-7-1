@@ -52,3 +52,11 @@ node-sass --watch --source-map true --output-style compressed sass/main.sass css
 ```
 
 **Note:** This template has been created with the help of SASS lang official style guides and [HugoGiraudel](https://github.com/HugoGiraudel/sass-boilerplate) repository. 
+
+## Other variants
+
+- [Pattern 7-1 with Split media](https://github.com/tanrax/pattern-7-1-with-split-media): The best, highly recommended ❤️)
+- [Pattern 7-1](https://github.com/tanrax/pattern-7-1): Standard. **Not responsive design**.
+- [Pattern 7-1 Lite with Split media](https://github.com/tanrax/pattern-7-1-lite-with-split-media): Simplified version for students or very small web sites.
+- [Pattern 7-1 Lite](https://github.com/tanrax/pattern-7-1-lite): Simplified version for students or very small web sites. **Not responsive design**.
+
