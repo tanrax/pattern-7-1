@@ -3,8 +3,7 @@
 ``` txt
 sass/                    
 |    
-|– abstracts/                
-|   |– _functions.sass        
+|– abstracts/                   
 |   |– _mixins.sass     
 |   |– _variables.sass   
 |– base/              
@@ -12,7 +11,8 @@ sass/
 |   |– _fonts.sass   
 |   |– _helpers.sass
 |   |– _typography.sass
-|– components/                
+|– components/   
+|   |– _alert.sass     
 |   |– _button.sass        
 |   ...
 |– layout/                
@@ -22,10 +22,11 @@ sass/
 |   |– _home.sass        
 |   ...
 |– themes/                
-|   |– _default.sass        
-|   ...
+|   |– _dark.sass        
+|   |– _light.sass     
 |– vendors/                
-|   |– _normalize.sass        
+|   |– _normalize.sass       
+|   |– _owl-carousel.sass
 |   ...
 `– main.sass             
 ```
